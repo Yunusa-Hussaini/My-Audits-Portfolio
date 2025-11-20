@@ -1,3 +1,4 @@
+```solidity
 // SPDX-License-Identifier: MIT
 
    pragma solidity ^0.8.30;
@@ -67,7 +68,7 @@
         function allowance(address _owner, address _spender) external view returns(uint256 remaining) {
                  return allowances[_owner][_spender];
          }
-
+```
 
          function balanceof(address _user) external view returns(uint256 balance) {
                 return balances[_user];
